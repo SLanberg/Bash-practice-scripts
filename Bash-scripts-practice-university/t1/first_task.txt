@@ -1,0 +1,6 @@
+cd Desktop
+mkdir photos
+find / -type f -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" | xargs cp -t ~/Desktop/Photos
+rm ~/Desktop/photos/*.png
+zip -r photos_personal.gz photos/ && rm -r photos
+history >> stephan_lanberg_task1.txt

@@ -1,0 +1,2 @@
+    1  apt-get moo
+    2  history >> stephan_lanberg_task1.txt
